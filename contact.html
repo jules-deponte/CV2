@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact me</title>
+</head>
+<body>
+    <hr>
+    <h2>Contact details</h2>
+
+        <p>Phone: +27 82 724 7732</p>
+        
+        <p>Email: julesdeponte@gmail.com</p>
+    <hr size="1">
+
+    <!-- Allow for user to enter their details in a form -->
+    <form action="mailto:julesdeponte@gmail.com" method="post" enctype="text/plain">
+
+    <!-- Table containing the inputs for the form. -->
+    <table style="border-spacing: 10px;" class="tables">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="phone">Phone:</label></td>
+                <td><input type="text" id="phone" name="phone"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="message">Message:</label></td>
+                <td><textarea name="message" rows="10" cols="30"></textarea></td>
+            </tr>
+
+            <tr><td><input enabled="false" type="submit" value="Submit"></td></tr>
+        </form>
+    </table>
+</body>
+</html>
