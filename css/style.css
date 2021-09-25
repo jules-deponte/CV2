@@ -24,7 +24,7 @@ body{
 hr{
     background-color: #EAF6F6;
     border-color: rgb(216, 216, 216);
-    border-width: 10px;
+    border-width: 10px; 
     border-style: dotted none none none;
     height: 0px;
     line-height: 10px;
