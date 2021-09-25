@@ -8,8 +8,8 @@
     padding-right: 20px;
 }
 
-#title{
-    text-align: left;
+#summaryTable{
+    text-align: center;
 }
 
 #title:hover{
@@ -32,8 +32,8 @@ hr{
 }
 
 td{
-    padding-right: 10px;
     height: 5px;
+    padding-right: 10px;
 }
 
 h1{
